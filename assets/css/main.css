@@ -16,17 +16,87 @@ body{
 
 .HEADER{
   background-color: white;
-  
+  border: 1px solid;
+}
+
+.HEADER .top{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
+.HEADER .navigation{ 
+    border: 1px solid darkgreen;
+}
+
+.navigation nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.HEADER .top .logo{
+    border: 1px solid mediumslateblue;
+    margin-left: 30px;
+}
+
+.HEADER 
+
+.HEADER .bottom{
+    display: flex;
+    border: 1px solid burlywood;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.HEADER .bottom nav ul{
+    display: flex;
+    margin-left: 50px;
+}
+
+.HEADER .bottom nav ul li{
+    margin-right: 40px;
+}
+
+.HEADER img{
+    border: 1px solid;
+    width: 50px;
+}
 
 
+.hero{
+    border: 1px solid firebrick;
+    display: grid;
+    width: 90%;
+    height: 1500px;
+    margin: 0 auto;
+    grid-template-columns: repeat(12, 1fr);
+}
 
+.hero .Profile-page{
+     border: 1px solid red;
+     grid-column: 1 /span 2;
+}
 
+.Profile-page img{
+    width: 60px;
+}
+ 
+.hero .posts{
+    border: 1px solid navy;
+    grid-column: 4/ span 4;
+    margin-left: 90px;
+}             
 
+.hero .posts img{
+    width: 10%;
+}
 
-
-
-
+.Aside{
+    border: 1px solid blueviolet;
+    grid-column: 10 / span 2;
+}
 
