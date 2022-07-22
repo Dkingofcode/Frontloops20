@@ -1,0 +1,130 @@
+.hero{
+    border: 1px solid firebrick;
+    display: grid;
+    width: 85%;
+    height: 1900px;
+    margin: 30px auto;
+    gap: 1em;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.hero .Profile-page{
+     border: 1px solid red;
+     grid-column: 1 /span 3;
+     text-align: center;
+     background-color: white;
+     height: 600px;
+     width: 80%;
+     margin-left: 50px;
+}
+
+.Profile-page img{
+    border: 1px solid;
+    width: 130px;
+    margin-top: 10px;
+    border-radius: 70px;
+    height: 130px;
+}
+
+.Profile-page p{
+    color: gray;
+    font-size: 12px;
+}
+
+.Profile-page h6{
+    margin-bottom: 5px;
+    color: gray;
+    font-size: 14px;
+}
+  
+.button{
+    width: 180px;
+    height: 39px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(112, 174, 255);
+    border: 1px solid;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    padding: 10px 0;
+}
+
+.btn{
+    width: 180px;
+    height: 39px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid;
+    color: rgb(112, 174, 255);
+    margin: 0 auto;
+    padding: 0px 0px 12px 0px;
+}
+
+.Profile-page .contacts{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.Profile-page .contacts div{
+}
+
+.Profile-page .net{
+    margin-bottom: 10px;
+    padding: 19px 0;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+.Profile-page .net div{
+    display: flex;
+}
+
+.Profile-page .export{
+    padding: 19px 0;
+}
+
+ 
+.hero .posts{
+    border: 1px solid navy;
+    grid-column: 4/ span 7;
+    width: 100%;
+    margin-right: 50px;
+}             
+
+.hero .posts img{
+    width: 100%;
+}
+
+.posts .header{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.posts .icons .material-icons{
+    border: 1px solid;
+    height: 34px;
+    width: 38px;
+    padding: 3px 6px;
+    border-radius: 20px;
+}
+
+.posts .post-hero{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1em;
+    padding: 10px 12px;
+    background-color: white;
+}
+
+.posts .post-hero div{
+    grid-column: span 4;
+    border: 1px solid red;
+}

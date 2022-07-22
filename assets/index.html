@@ -33,7 +33,7 @@
     
     <div class="search-box">
     <form action="#">
-     <input id="input" type="text" placeholder="search">
+     <input id="input" type="text" placeholder="Search">
      <span class="material-icons">
       search
       </span>
@@ -47,27 +47,27 @@
           <li>Profile</li>
           <li>Connections</li>
           <li>Interest</li>
-          <li>Try Premium</li>
+          <li class="red">Try Premium</li>
         </ul>
       </nav>
     </div>
 
     <div class="icons">
-      <span class="material-icons">
+      <span class="material-icons" style="color:green">
         message
         </span>
       
-        <span class="material-icons">
+        <span class="material-icons" style="color:yellow">
           notifications
           </span>
 
-          <span class="material-icons">
+          <span class="material-icons" style="color:purple">
             person
             </span>
     </div>
 
     <div class="profile-pic">
-      <img src="img/avatar.jpg">
+      <img  src="img/avatar.jpg">
     </div>
     </div>
     
@@ -87,16 +87,16 @@
       <div class="Profile-page">
        <img src="img/bill-gates-avatar.png">
        <h2>Bill Gates</h2>
-       <h6>Microsoft Founder</h6>
-       <p>Greater Seattle Area</p>
+       <h5>Microsoft Founder</h5>
+       <h6>Greater Seattle Area</h6>
        <h5 class="button">Follow</h5>
-       <h6 class="btn">Connect </h6>
+       <h6 class="btn" >Connect  <span class="material-icons">expand_more</span> </h6>
        <div class="contacts">
         <div>
         <h4>200</h4>
         <p>connecti....</p>
         </div>
-
+           
         <div>
          <h4>1.9M</h4>
          <p>followers</p>
@@ -104,11 +104,25 @@
          </div>
 
         <div class="net">
-        <p>linkedin.com/in/billgat...</p>
-        <p>billgates.com</p>
-        </div>
+          <div>
+          <span class="material-icons" style="color: gray">
+            link
+            </span>
+            <p>linkedin.com/in/billgat...</p>
+            </div>
+
+            <div>
+            <span class="material-icons" style="color: gray">
+              language
+              </span>
+              <p>billgates.com</p>
+              </div>      
+             </div>
 
         <div class="export">
+          <span class="material-icons" style="color: gray">
+            file_upload
+            </span>
           <p>Export page as PDF</p>
         </div>
        </div>
@@ -118,7 +132,12 @@
           <h2>POSTS</h2>
 
           <div class="icons">
-           
+              <span class="material-icons">
+                chevron_left
+                </span>
+                <span class="material-icons">
+                  chevron_right
+                  </span>
           </div>
            </div>      
 
@@ -147,8 +166,10 @@
             <h3>BACKGROUND</h3>
 
             <div class="Summary">
-             <div class="header">
-              <icon>
+             <div class="Header">
+              <span class="material-icons">
+                assignment
+                </span>
               <h2>Summary</h2>
              </div>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -161,13 +182,15 @@
             </div>
 
             <div class="Experience">
-             <div class="header">
-              <icon>
+             <div class="Header">
+              <span class="material-icons">
+                work
+                </span>
               <h2>Experience</h2>
              </div>
 
              <div class="Microsoft">
-              <icon>
+              
                <div class="details">
                 <p>2000 - PRESENT</p>
                 <h4>Co-founder, Chairman</h4>
@@ -177,7 +200,7 @@
              </div>
 
              <div class="Youtube">
-              <div>
+              <div class="details">
                 <p>1992 - 1999</p>
                 <h4>Senior Developer</h4>
                 <p class="blue">Youtube</p>
@@ -187,34 +210,38 @@
             </div>
 
             <div class="Education">
-              <div class="header">
-               <icon></icon>
+              <div class="Header">
+               <span class="material-icons">
+                school
+                </span>
                <h2>Education</h2> 
               </div>
 
-              <div>
+              <div class="details">
                 <p>1973 - 1975</p>
                 <h4>Harvard University</h4>
                 <p class="blue">BS Computer Science</p>
               </div>
                
-              <div>
+              <div class="details">
                 <p>1960 - 1973</p>
                 <h4>LakeSide School, Seattle</h4>
               </div>
             </div>
 
             <div class="Skills">
-              <div class="header">
-                <icon></icon>  
+              <div class="Header">
+                <icon><span class="material-icons">
+                  tips_and_updates
+                  </span></icon>  
                 <h2>Skills</h2>
               </div>
               
-              <div>
+              <div class="pointers">
                 <p class="circle">74</p>
                 <p>Social Media Marketing</p>
 
-                <div>
+                <div class="pictures">
                   <img src="img/avatar.jpg">
                   <img src="img/avatar2.jpg">
                   <img src="img/avatar3.jpg">
@@ -222,11 +249,11 @@
                 </div>
               </div>
 
-              <div>
+              <div class="pointers">
                 <p class="circle">67</p>
                 <p>Web Development</p>
 
-                <div>
+                <div class="pictures">
                   <img src="img/avatar2.jpg">
                   <img src="img/avatar3.jpg">
                   <img src="img/avatar.jpg">
@@ -236,8 +263,10 @@
             </div>
 
             <div class="Interests">
-             <div class="header">
-              <icon></icon>
+             <div class="Header">
+              <icon><span class="material-icons">
+                star
+                </span></icon>
               <h2>Interests</h2>
              </div>    
 
@@ -251,24 +280,29 @@
           </div>
 
           <div class="Recommendations">
-            <div class="header">
+            <div class="Header">
               <h3>RECOMENDATIONS</h3>
               <div>
-                icons
+                <span class="material-icons">
+                  chevron_left
+                  </span>
+                  <span class="material-icons">
+                    chevron_right
+                    </span>
               </div>
             </div> 
 
             <div class="text">
              <div class="text-1">
-              <p>Lorem ipsum dolor sit amet,
+              <h6>Lorem ipsum dolor sit amet,
                consectetur adisciping elit,
                sed do eiusmod tempor incididunt
                ut labore et dolore magna aliqua.
-              </p>
+              </h6>
                
-              <div>
+              <div class="sub-1">
                 <img src="img/avatar.jpg">
-                 <div> 
+                <div>
                 <h5>Steve Jobs</h5>
                  <p>Apple</p>
               </div> 
@@ -276,14 +310,14 @@
                </div>
             
               <div class="text-2">
-                <p>
+                <h6>
                Lorem ipsum dolor sit amet,
                consectetur adisciping elit,
                sed do eiusmod tempor incididunt
                ut labore et dolore magna aliqua.
-                </p>
+                </h6>
 
-               <div>
+               <div class="sub-2">
                 <img src="img/avatar2.jpg">
                 <div>
                   <h5>Mark Zuckerberg</h5>
@@ -293,13 +327,13 @@
               </div> 
               
               <div class="text-3">
-                <p>Lorem ipsum dolor sit amet,
+                <h6>Lorem ipsum dolor sit amet,
                   consectetur adisciping elit,
                   sed do eiusmod tempor incididunt
                   ut labore et dolore magna aliqua.
-                </p>
+                </h6>
 
-                <div>
+                <div class="sub-3">
                   <img src="img/avatar3.jpg">
                   <div>
                     <h5>Jeffrey Bezos</h5>
@@ -308,6 +342,7 @@
                 </div>
               </div>
 
+            </div>
             </div>
 
             <div class="Following">
@@ -319,25 +354,37 @@
               <div class="one">
               <img src="img/logo-microsoft.png">
               <p>Microsoft</p>
-              <p><sup>+</sup> Follow</p>
+               <div class="fol-btn">
+              <p>+</p>
+              <p>Follow</p>
+              </div>
               </div>
 
               <div class="two">
               <img src="img/logo-amazon.jpg">
               <p>Amazon</p>
-              <p><sup>+</sup> Follow</p>
+              <div class="fol-btn">
+              <p>+</p>
+              <p> Follow</p>
+              </div>
               </div>
 
               <div class="three">
               <img src="img/logo-microsoft.png">
               <p>Microsoft</p>
-              <p><sup>+</sup> Follow</p>
+              <div class="fol-btn">
+              <p>+</p>
+              <p>Follow</p>
+              </div>
               </div>
 
               <div class="four">
               <img src="img/logo-amazon.jpg">
               <p>Amazon</p>
-              <p><sup>+</sup> Follow</p>
+              <div class="fol-btn">
+              <p>+</p>
+              <p> Follow</p>
+              </div>
               </div>
              </div>   
             
@@ -346,30 +393,45 @@
           </div>
           </div>
           
+          
       <div class="Aside">
-        <h1>PEOPLE ALSO VIEWED</h1>
-        <div>
+        <h3>PEOPLE ALSO VIEWED</h3>
+        <div class="Brin">
           <img src="img/avatar.jpg">
-          <h3>Sergey Brin</h3>
+          <div>
+          <h4>Sergey Brin</h4>
           <p>Google</p>
+          </div>
         </div>
 
-        <div>
+        <div class="Bezos">
           <img src="img/avatar2.jpg">
-          <h3>Jeffrey Bezos</h3>
+          <div>
+          <h4>Jeffrey Bezos</h4>
           <p>Amazon</p>
+          </div>
         </div>
 
-        <div>
+          <div class="jobs">
           <img src="img/avatar3.jpg">
-          <h3>Steve Jobs</h3>
+          <div>
+          <h4>Steve Jobs</h4>
           <p>Apple</p>
+          </div>
         </div>
 
         <div class="connects">
-          <h2>MORE INFLUENCERS</h2>
+          <h3>MORE INFLUENCERS</h3>
+          <div>
+              <span class="material-icons">
+                chevron_left
+                </span>
           <img src="img/avatar3.jpg">
-          <h2>Steve Jobs</h2>
+          <span class="material-icons">
+            chevron_right
+            </span>
+            </div>
+          <h4>Steve Jobs</h4>
           <p>Apple</p>
         </div>
       </div>

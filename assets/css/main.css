@@ -14,89 +14,356 @@ body{
     background: rgb(216, 216, 216);
 }
 
-.HEADER{
-  background-color: white;
+.posts .background{
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px 0;
+}
+
+.posts .background img{
+    width: 40px;
+}
+
+.background .Header{
   border: 1px solid;
+  display: flex;
+  padding-left: 10px;
 }
 
-.HEADER .top{
-    border: 1px solid;
+.background .material-icons{
+    margin-right: 10px;
+}
+
+.background .Header h2{
+    font-weight: 300;
+}
+
+.background h3{
+    padding-bottom: 10px;
+}
+
+.background .Summary p{
+    padding: 5px 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.background  .Microsoft{
+   display: flex;
+   border: 1px solid peru;   
+   justify-content: space-between;
+   padding-right: 17px;
+}
+
+.background .Youtube{
+    border: 1px solid blueviolet;
     display: flex;
     justify-content: space-between;
-    width: 70%;
-    margin: 0 auto;
+    padding-right: 17px;
 }
 
-
-.HEADER .navigation{ 
-    border: 1px solid darkgreen;
+.background .Microsoft img{
+    width: 110px;
+    height: 40px;
+    margin-top: 7px;
+    border: 1px solid royalblue;
 }
 
-.navigation nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
-.HEADER .top .logo{
-    border: 1px solid mediumslateblue;
-    margin-left: 30px;
-}
-
-.HEADER 
-
-.HEADER .bottom{
-    display: flex;
-    border: 1px solid burlywood;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.HEADER .bottom nav ul{
-    display: flex;
-    margin-left: 50px;
-}
-
-.HEADER .bottom nav ul li{
-    margin-right: 40px;
-}
-
-.HEADER img{
+.background .Youtube img{
+    width: 110px;
+    height: 30px;
+    margin-top: 7px;
     border: 1px solid;
-    width: 50px;
 }
 
-
-.hero{
+.background .details{
     border: 1px solid firebrick;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.background .details p{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 4px;
+}
+.background .details .blue{
+    color: rgb(48, 143, 233);
+    font-weight: 300;
+    font-size: 16px;
+}
+.background .details h4{
+    margin-bottom: 3px;
+    font-weight: 300;
+}
+
+/*.background .Education .details .blue{
+     color: rgb(48, 143, 233);
+     font-weight: 300;
+     font-size: 16px;
+}
+
+.background .Education .details h4{
+    margin-bottom: 3px;
+    font-weight: 300;
+}*/
+
+.background .Skills{
+    border: 1px solid blue;
+}
+
+.background .Skills .pointers{
+    border: 1px solid forestgreen;
+   display: flex;
+   padding: 4px 0px 4px 22px;
+}
+
+
+.background .Skills .pointers p:nth-child(2){
+    border: 1px solid;
+    margin-right: 130px;
+    width: 190px;
+    padding-top: 6px;
+}
+
+.pictures{
+    display: flex;
+}
+
+.pictures img{
+    margin-right: 20px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+.circle{
+ border: 1px solid;
+ padding: 7px 0 0 7px;
+ width: 40px;
+ border-radius: 25px;
+ margin-right: 20px;   
+}
+
+.gray{
+    width: 40px;
+    background-color: gray;
+    color: black;
+    padding-left: 11px;
+    padding-top: 11px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.background .Interests div{
+  display: flex;
+}
+
+.background .Interests p{
+    margin-left: 10px;
+    background-color: gray;
+    padding: 2px 2px;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.background .Interests p:first-child{
+    background-color: gray;
+    margin-right: 0px;
+    margin-left: 40px;
+    padding: 2px 2px;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+
+.Recommendations{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+.Recommendations .Header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid;
+    padding: 0 10px;
+}
+
+.Recommendations .material-icons{
+    border: 1px solid;
+    width: 35px;
+    padding-left: 3px;
+    padding-top: 2px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.Recommendations .text{
+    border: 1px solid;
+    padding: 20px 10px;
     display: grid;
-    width: 90%;
-    height: 1500px;
-    margin: 0 auto;
+    gap: 1em;
     grid-template-columns: repeat(12, 1fr);
 }
 
-.hero .Profile-page{
-     border: 1px solid red;
-     grid-column: 1 /span 2;
+.Recommendations .text div{
+    grid-column: span 4;
+    border: 1px solid;
 }
 
-.Profile-page img{
-    width: 60px;
+.Recommendations .text h6{
+    margin-bottom: 30px;
+    width: 150px;
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 16px;
 }
- 
-.hero .posts{
-    border: 1px solid navy;
-    grid-column: 4/ span 4;
-    margin-left: 90px;
-}             
 
-.hero .posts img{
-    width: 10%;
+
+
+.sub-1,
+.sub-2,
+.sub-3{
+    display: flex;
+    border: 1px solid;
+}
+
+.Recommendations .text p{
+    color: gray;
+    font-size: 14px;
+}
+
+.Recommendations .text h5{
+    font-size: 14px;
+    font-weight: 200px;
+}
+
+.hero .posts .Recommendations img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+
+
+.Following{
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.hero .posts .Following img{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 20px 20px;
+}
+
+.Following .logo{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.Following .logo div{
+    border: 1px solid;
+    grid-column: span 3;
+    font-weight: 300;   
+}
+
+.Following .logo div p{
+   margin-bottom: 5px;
+}
+
+.Following .btn{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.fol-btn{
+    display: flex;
+}
+
+.fol-btn p:first-child{
+  border: 1px solid;
+  width: 23px;
+  height: 23px;
+  border-radius: 20px;
+  padding-left: 6px;
+  margin-right: 4px;
+}
+
+.fol-btn p:nth-child(2){
+    color: rgb(48, 143, 233);
 }
 
 .Aside{
     border: 1px solid blueviolet;
-    grid-column: 10 / span 2;
+    grid-column: 11 / span 2;
+    margin-left: 0px;
 }
 
+.Aside h3{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.Aside h4{
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.Aside .Brin,
+.Aside .Bezos,
+.Aside .jobs{
+    border: 1px solid mediumpurple;
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+.Aside .Brin img,
+.Aside .Bezos img,
+.Aside .jobs img{
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.Aside p{
+    color: gray;
+}
+
+.connects{
+   margin-top: 20px;
+   text-align: center;
+}
+
+.connects img{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.connects h4{
+    font-size: 16px;
+}
+
+.connects h3{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    border: 1px solid cornflowerblue;
+     text-align: center;
+     padding: 30px 0;
+}
