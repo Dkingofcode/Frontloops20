@@ -1,7 +1,7 @@
 .hero{
-    border: 1px solid firebrick;
+    border-bottom: 1px solid gray;
     display: grid;
-    width: 85%;
+    width: 79%;
     height: 1900px;
     margin: 30px auto;
     gap: 1em;
@@ -9,7 +9,6 @@
 }
 
 .hero .Profile-page{
-     border: 1px solid red;
      grid-column: 1 /span 3;
      text-align: center;
      background-color: white;
@@ -19,7 +18,6 @@
 }
 
 .Profile-page img{
-    border: 1px solid;
     width: 130px;
     margin-top: 10px;
     border-radius: 70px;
@@ -89,7 +87,6 @@
 
  
 .hero .posts{
-    border: 1px solid navy;
     grid-column: 4/ span 7;
     width: 100%;
     margin-right: 50px;
@@ -100,7 +97,6 @@
 }
 
 .posts .header{
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
@@ -116,7 +112,6 @@
 }
 
 .posts .post-hero{
-    border: 1px solid;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 1em;
@@ -126,5 +121,4 @@
 
 .posts .post-hero div{
     grid-column: span 4;
-    border: 1px solid red;
 }
